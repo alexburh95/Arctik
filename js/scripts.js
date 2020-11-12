@@ -1,4 +1,12 @@
 "use strict";
+let wow = new WOW({
+    boxClass: 'wow',
+    animateClass: 'animated',
+    offset: 150,
+    mobile: true,
+    live: true
+})
+wow.init();
 const popularButton = document.querySelector(`.popular_button.story`);
 
 const button = document.querySelector(`.nagrada_link`);
