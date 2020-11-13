@@ -101,12 +101,16 @@ border-radius: 10px;
   
 
   .description_items {
-    font-size: 24px;
+    font-size: 12px;
     font-family: 'Roboto', sans-serif;
     color: rgb(49, 76, 108);
     line-height: 1.083;
-    text-align: center;
+    text-align: justify;
     padding-bottom: 20px;
+    padding-left: 25px;
+    padding-right: 25px;
+    word-break: break-all;
+
 
   }
 
@@ -784,7 +788,7 @@ padding-bottom:70px;
     width :30%;
     margin-bottom:15px;
   }
-  .sosi{
+  .bar{
     width: 50%;
     background-color: #2b4973;
     height: 4px;

@@ -30,7 +30,7 @@ krest.addEventListener('click',()=>{
 
 
 
-const buttons = document.querySelectorAll(`.popular_button`);
+const buttons = document.querySelectorAll(`.more`);
 
 buttons.forEach(item => {
 item.addEventListener('click',()=>{
