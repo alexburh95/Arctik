@@ -8,10 +8,13 @@ let wow = new WOW({
 })
 wow.init();
 const popularButton = document.querySelector(`.popular_button.story`);
-
+const header_button = document.querySelector(`.header_link`);
+const header_popup = document.querySelector(`.form_OS_header`);
 const button = document.querySelector(`.nagrada_link`);
 const forma = document.querySelector(`.form_OS`)
 const krest = forma.querySelector('.close');
+
+ const krest2 = header_popup.querySelector(`.close`);
 
 popularButton.addEventListener('click',(evt)=>{
    
@@ -23,11 +26,18 @@ button.addEventListener('click',(evt)=>{
     evt.preventDefault();
     forma.classList.toggle(`hidden`);
 })
-
+header_button.addEventListener('click',(evt)=>{
+    evt.preventDefault();
+   header_popup.classList.toggle(`hidden`);
+})
 krest.addEventListener('click',()=>{
     forma.classList.add(`hidden`);
+  
 })
+krest2.addEventListener('click',()=>{
 
+    header_popup.classList.add(`hidden`);
+})
 
 
 const buttons = document.querySelectorAll(`.more`);

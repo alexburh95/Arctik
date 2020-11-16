@@ -585,15 +585,28 @@ padding-bottom:70px;
                                     
                                     
                                   }
+                                  .form_OS_header{
+                                    position: absolute;
+                                    background-color: #f5faff;
+                                
+                                    width:50%;
+
+                                 border-radius: 15px;
+                                    top: 20%;
+                                    right: 25%;
+                                    text-align: center;
+                                  }
 
                                   .form_OS{
                                     position: absolute;
                                     background-color: #f5faff;
                                 
-                                    width:520px;
-                                    height: 520px;
-                                    top: 20%;
-                                    right: 0%;
+                                    width:80%;
+
+                                 border-radius: 15px;
+                                    top: 120%;
+                                    right: 9%;
+                                    text-align: center;
                                    
 
                                   }
@@ -614,24 +627,31 @@ padding-bottom:70px;
     font-family: 'Roboto', sans-serif;
     color: rgb(50, 76, 108);
     line-height: 1.091;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 
   
   
 }
-
-.nagrada input{
+ input[type='submit']{
+  border-color: rgb(43, 73, 115);
+  width: 25%;
+font-weight: 600;
+margin: 0 auto;
+text-transform: uppercase;
+border-width: 3px;
+border-radius: 10px;}
+ input{
  
     border-width: 2px;
     border-color: rgb(37, 59, 85);
     border-style: solid;
     border-radius: 10px;
- width: 90%;
+ width: 100%;
  margin-bottom:30px;
  height: 50px;
   }
   
-.nagrada input::placeholder{
+input::placeholder{
 
     font-size: 22px;
     font-family: 'Roboto', sans-serif;
@@ -639,6 +659,7 @@ padding-bottom:70px;
     color: rgb(50, 76, 108);
     font-style: italic;
     line-height: 1.091;
+    padding-left: 10px;
    
 
   }
