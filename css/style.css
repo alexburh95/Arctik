@@ -29,12 +29,14 @@ img{
 .header_contacts {
     font-size: 22px;
     font-family: 'Noto Sans Regular';
-    color: rgb(43, 73, 115);
+    color: #ffffff;
     line-height: 1.091;
     text-align: center;
     display: flex;
+    justify-content: center;
     align-items: center;
     margin-bottom: 10px;
+    text-decoration: none;
 
   
   }
@@ -98,7 +100,11 @@ border-radius: 10px;
   }
 
 
-  
+  .oferta{
+    max-width: 100%; 
+    height: auto;
+     margin-top: 20px;
+  }
 
   .description_items {
     font-size: 12px;
@@ -575,6 +581,7 @@ padding-bottom:70px;
                                   }
 
                                   .footer_description{
+                                    margin-bottom: 0;
                    padding-top:10px;
                                       font-size: 15px;
                                       font-family: 'Roboto', sans-serif;
