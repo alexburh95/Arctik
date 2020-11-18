@@ -99,12 +99,82 @@ border-radius: 10px;
    
   }
 
+  @keyframes blick {
+  
+
+  to{
+   top: 120%
+  }
+  }
+
+
+  
+.figure_div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+}
+  figure{
+    animation-name: blick;
+    animation-duration: 3s;
+
+    animation-delay: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0, 0.3, 1, 0.7);
+    border-radius: 70px;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    cursor: pointer;
+    margin: 0 0.8em 5em;
+    top: -120%;
+    
+  
+    background-size: cover;
+   
+  }
+   figure img {
+    vertical-align: bottom;
+    z-index: -5;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  figure:hover {
+    top: 120%;
+  }
+  figure:before, figure:after {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 100%;
+  }
+  figure:before {
+    width: 140%;
+    top: inherit;
+    left: -20%;
+    opacity: 0.6;
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, 0), #ffffff 40%, rgba(255, 255, 255, 0.6) 60%, rgba(255, 255, 255, 0));
+    transform: rotate(-20deg);
+  }
+  figure:after {
+    width: 100%;
+    top: 0;
+    border-radius: 50%;
+ 
+    background-image: radial-gradient(35% 25%, closest-corner, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
+  }
+  
 
   .oferta{
     max-width: 100%; 
     height: auto;
      margin-top: 20px;
   }
+
+  
+
 
   .description_items {
     font-size: 12px;
@@ -182,12 +252,19 @@ border-radius: 10px;
           display: flex;
 }
       .centrik::after{
-        content:"";
+        content: "";
         position: absolute;
         width: 2px;
-        height: 69px;
-        background-color:rgb(43, 73 ,115);
-        top: 25px;
+        height: 38px;
+        background-color: rgb(43, 73 ,115);
+        top: 50px;
+      }
+
+      .centrik.vitamin::after{
+        top: 62px;
+      }
+      .centrik.low::after{
+top:62px;
       }
       .text_circle{
           display: flex;
@@ -218,7 +295,8 @@ border-radius: 10px;
           justify-content:flex-start;
       }
       .bot70{
-padding-bottom:70px;
+min-height: 100px;
+align-items: center;
 
       }
       .norvegian_standart{
