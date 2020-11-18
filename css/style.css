@@ -263,6 +263,19 @@ border-radius: 10px;
       .centrik.vitamin::after{
         top: 62px;
       }
+      .mini_logo{
+        width: 40%;
+      }
+      .centrik.mini::after{
+        top:55px;
+              }
+              .centrik.chel::after{
+                top:70px;
+                      }
+              .mini_logo_60{
+                width: 60%;
+              }
+
       .centrik.low::after{
 top:62px;
       }
@@ -475,7 +488,8 @@ align-items: center;
                                 color: rgb(50, 76, 108);
                                 line-height: 1.32;
                                 text-align: right;
-                                width: 85%;
+                                width: 75%;
+                                margin-bottom: 0;
                              
                                 
                               }
@@ -483,7 +497,7 @@ align-items: center;
                               .buisness_row{
                                 display: flex;
                                 justify-content: space-between;
-                                align-items: baseline;
+                                align-items: center;
                                 position: relative;
                                 margin-bottom:40px;
                                   
@@ -493,12 +507,15 @@ align-items: center;
                                 content:"";
                                 position: absolute;
                                 width: 2px;
-                                height: 69px;
+                                height: 38px;
                                 background-color:rgb(43, 73 ,115);
-                                top: 35px;
-                                right: 5px;
+                                top: 70px;
+                                right: 23px;
                             }
-                              
+                            .buisness_row.poloska.koshel::after{
+                            top: 90px;
+                            
+                            }
                      
 
                             .bonusi{
