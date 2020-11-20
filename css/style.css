@@ -523,6 +523,96 @@ align-items: center;
     text-decoration: none;
     color: #FFF;
 }
+.check {
+  cursor: pointer;
+  position: relative;
+  margin-right: 20px;
+  width: 18px;
+  height: 18px;
+  -webkit-tap-highlight-color: transparent;
+  transform: translate3d(0, 0, 0);
+}
+.check:before {
+  content: "";
+  position: absolute;
+  top: -15px;
+  left: -15px;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: rgba(34,50,84,0.03);
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+.check svg {
+  position: relative;
+  z-index: 1;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: #c8ccd4;
+  stroke-width: 1.5;
+  transform: translate3d(0, 0, 0);
+  transition: all 0.2s ease;
+}
+.check svg path {
+  stroke-dasharray: 60;
+  stroke-dashoffset: 0;
+}
+.check svg polyline {
+  stroke-dasharray: 22;
+  stroke-dashoffset: 66;
+}
+.check:hover:before {
+  opacity: 1;
+}
+.popup_table th{
+  font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color: rgb(50, 76, 108);
+    line-height: 1.167;
+    border:1px solid  rgb(50, 76, 108);
+    text-align: center;
+}
+.popup_table td{
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: rgb(50, 76, 108);
+  line-height: 1.167;
+  text-align: center;
+  border:1px solid  rgb(50, 76, 108);
+}
+
+.check:hover svg {
+  stroke: #4285f4;
+}
+#cbx:checked + .check svg {
+  stroke: #4285f4;
+}
+#cbx:checked + .check svg path {
+  stroke-dashoffset: 60;
+  transition: all 0.3s linear;
+}
+#cbx:checked + .check svg polyline {
+  stroke-dashoffset: 42;
+  transition: all 0.2s linear;
+  transition-delay: 0.15s;
+}
+#cbx2:checked + .check svg {
+  stroke: #4285f4;
+}
+#cbx2:checked + .check svg path {
+  stroke-dashoffset: 60;
+  transition: all 0.3s linear;
+}
+#cbx2:checked + .check svg polyline {
+  stroke-dashoffset: 42;
+  transition: all 0.2s linear;
+  transition-delay: 0.15s;
+}
+
 .atuin-btn:before {
     content: "";
     position: absolute;
@@ -947,6 +1037,13 @@ input::placeholder{
   }
   .container.relative{
     z-index: 1;
+  }
+  .persona{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin-bottom:20px;
+
   }
   .obolochka{
     display: flex;

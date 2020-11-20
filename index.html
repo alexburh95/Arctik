@@ -35,12 +35,13 @@
          
 
      <img src="img/logo.png" alt="">
+     
             
 
         </div>
         <div class="col-lg-4 center">
 
-            <a href="" class="header_link atuin-btn"><span>Регистрация/вход</span></a>
+            <a href="https://office.arctic-h.com/ru-RU" target="_blank" class="header_link atuin-btn"><span>Регистрация/вход</span></a>
         </div>
     </div>
 
@@ -65,6 +66,20 @@
       <div class="col-lg-4">     <input type="phone" name="phone" placeholder="Телефон"></div>
          <div class="col-lg-4">     <input type="email" name="email" placeholder="Электронный адрес"></div>
 </div>
+
+  <div class="persona">
+        <input type="checkbox" id="cbx" style="display: none;">
+        <label for="cbx" class="check">
+            
+          <svg width="18px" height="18px" viewBox="0 0 18 18">
+            <path d="M1,9 L1,3.5 C1,2 2,1 3.5,1 L14.5,1 C16,1 17,2 17,3.5 L17,14.5 C17,16 16,17 14.5,17 L3.5,17 C2,17 1,16 1,14.5 L1,9 Z"></path>
+            <polyline points="1 9 7 14 15 4"></polyline>
+          </svg>
+        
+        </label>
+        <span class="questions_description">Согласен (на) на обработку <a href="soglasie.pdf" target="_blank">персональных данных</a></span>
+  </div>
+
      <input type="submit" class="btn">
  </form>
  </div>
@@ -184,9 +199,91 @@
                         <h3 class="description_items">Продукт способствуют улучшению метаболизма, повышению обмена веществ и как результат  нормализации веса.</h3>
                     </div>
 
-                    <button class="popular_button more" data-tab="second" disabled
+                    <button class="popular_button more atuin-btn" data-tab="second" 
                     >Узнать больше</button>
                 </div>
+                <div class="big_description hidden" id="second">
+                    <img src="img/krest.png" alt="" class="close">
+<div class="big_desk">
+
+              
+                     
+           
+                        <h2 class="obolochka_title">Cholomega</h2>
+                        <span class="weight">300гр</span>
+                    <div class="obolocha_description">
+                        <span class="nazvanie" data-tab="opisanie">Описание</span>
+                        <span class="nazvanie" data-tab="sostav">Состав</span>
+                       
+                    </div>
+                    <div class="obolochka">
+                        <span class="bar"></span>
+                    </div>
+
+                    <div class="opisanie">
+                       
+                        <p class="p_big_description">
+                         <span>  Область применения:</span><br> в качестве биологически активной добавки к пище – источника фитостеринов и полиненасыщенных жирных кислот омега-3, в том числе эйкозапентаеновой и докозагексаеновой кислот.
+                        </p>
+
+                        <p class="p_big_description">
+                            
+                            <span>Рекомендации по применению: </span> <br> взрослым по 1 капсуле 2 раза в день во время еды.
+                        </p>
+                        <p class="p_big_description">
+                           <span > Продолжительность приема</span> – 1 месяц. При необходимости прием можно повторить.
+                        </p>
+                        <p class="p_big_description">
+                        <span> Противопоказания:  </span><br> индивидуальная непереносимость компонентов, беременность, кормление грудью. Перед применением рекомендуется проконсультироваться с врачом.
+                        </p>
+                     
+                    </div>
+                    <div class="sostav hidden">
+                        <p class="sostav_p">
+                        Состав: фитостеролы, рыбий жир, желатин, носитель глицерин, вода очищенная, антиокислитель концентрат смеси токоферолов.
+                        </p>
+                        <table class="popup_table">
+                            <tr>
+                              <th>Биологически активное вещество
+                                </th>
+                              <th>Содержание,
+                                мг/ 2 капс.
+                                </th>
+                              <th>Уровень суточного потребления, мг</th>
+                              <th>% от уровня суточного потребления </th>
+                            </tr>
+                            <tr>
+                                <td>Полиненасыщенные жирные кислоты Омега-3
+                                    (ПНЖК Омега-3)
+                                    </td>
+                                <td>не менее 558,0</td>
+                                <td>2 000,0<sup>1</sup></td>
+                                <td>28</td>
+                            </tr>
+                            <tr>
+                                <td>Докозагексаеновая кислота (ДГК)</td>
+                                <td>не менее 404,0</td>
+                                <td>700,0<sup>1</sup></td>
+                                <td>58</td>
+                            </tr>
+                            <tr>
+                                <td>Эйкозапентаеновая кислота (ЭПК)</td>
+                                <td>не менее 96,0</td>
+                                <td>600,0<sup>1</sup></td>
+                                <td>16</td>
+                            </tr>
+                        </table>
+                      <p class="sostav_p">
+                        1 адекватный уровень суточного потребления согласно требованиями ЕврАзЭС (приложение 5).<br>
+                        2 не превышает верхний допустимый уровень суточного потребления.
+                        
+                      </p>
+
+                    </div>
+                </div>
+
+<a href="#" class="zakaz">Заказать</a>
+            </div>
                 <div class="big_description hidden" id="first">
                     <img src="img/krest.png" alt="" class="close">
 <div class="big_desk">
@@ -262,9 +359,74 @@
                         <h3 class="description_items">Продукт способствуют улучшению метаболизма, повышению обмена веществ и как результат  нормализации веса.</h3>
                     </div>
 
-                    <button class="popular_button more" data-tab="third" disabled
+                    <button class="popular_button more atuin-btn" data-tab="third" 
                     >Узнать больше</button>
-                </div><div class="col-lg-3 center wow animated fadeInDown  slowe" data-wow-delay="100ms">
+                    </div>
+
+                    <div class="big_description hidden" id="third">
+                        <img src="img/krest.png" alt="" class="close">
+    <div class="big_desk">
+    
+                  
+                         
+               
+                            <h2 class="obolochka_title">Antistress</h2>
+                            <span class="weight">300гр</span>
+                        <div class="obolocha_description">
+                            <span class="nazvanie" data-tab="opisanie">Описание</span>
+                            <span class="nazvanie" data-tab="sostav">Состав</span>
+                           
+                        </div>
+                        <div class="obolochka">
+                            <span class="bar"></span>
+                        </div>
+    
+                        <div class="opisanie">
+    
+    <p class="p_big_description"> <span>Область применения:</span> <br> в качестве биологически активной добавки к пище – дополнительного источника магния.</p>
+    <p class="p_big_description"><span>Рекомендации по применению:</span> <br> взрослым по 1 капсуле 2 раза в день во время еды.</p>
+    <p class="p_big_description"><span>Продолжительность приема– </span> <br> 1 месяц. При необходимости прием можно повторить.</p>
+    <p class="p_big_description"><span>Противопоказания:</span><br> индивидуальная непереносимость компонентов, беременность, кормление грудью. Перед применением рекомендуется проконсультироваться с врачом.</p>
+    
+                         
+                         
+                        </div>
+    
+    
+    
+                        <div class="sostav hidden">
+                            <p class="sostav_p">
+                                Состав: экстракт апельсина, капсула (гидроксипропилметилцеллюлоза), экстракт цветков лаванды, экстракт шишек хмеля, магния оксид, экстракт цветков ромашки, мальтодекстрин, гидролизат казеина, антислеживающие агенты магниевая соль стеариновой кислоты, кремния диоксид и орто-фосфат кальция 2-замещенный. 
+                                
+    
+                            </p>
+                            <table class="popup_table">
+                                <tr>
+                                  <th>Биологически активное вещество
+                                    </th>
+                                  <th>Содержание,
+                                    мг/ 2 капс.
+                                    </th>
+                                  <th>Уровень суточного потребления, мг</th>
+                                  <th>% от уровня суточного потребления </th>
+                                </tr>
+                                <tr>
+                                    <td>Магний
+                                        </td>
+                                    <td>не менее 60,0</td>
+                                    <td>400,0<sup>1</sup></td>
+                                    <td>15</td>
+                                </tr>
+                    </table>
+                    <p class="sostav_p">1 рекомендуемый уровень суточного потребления согласно требованиям ТР ТС 022/2011 (приложение 2).</p>
+                       
+                        </div>
+                    </div>
+                    <a href="#" class="zakaz">Заказать</a>
+
+                </div>
+
+        <div class="col-lg-3 center wow animated fadeInDown  slowe" data-wow-delay="100ms">
                     <div class="popular_item center">
                         <img src="img/banka4.png" alt="Баночка">
                         <h3 class="description_items">Пищевой продукт диетического профилактического питания для похудения и нормализации функции желудочно-кишечного тракта.</h3>
@@ -664,7 +826,7 @@
               <div class="container">
                  <h2 class="people_title">Мнения людей, которые добились успеха!</h2>
                  <div class="row">
-                     <div class="col-lg-4 wow fadeInRight" data-wow-duration="2s" data-wow-delay="200ms">
+                     <div class="col-lg-4">
                          <img src="img/people1.png" alt="Мужик">
                          <h3 class="people_name">Игорь,43</h3>
                          <p class="people_desc">регулярно покупает Arctic Health для поддержания веса и получает скидку с каждой покупки</p>
@@ -672,13 +834,13 @@
                      <div class="col-lg-8">
                         <p class="people_desc_big"><i>Я просто хотел поддержать определённый тонус и вес, который у меня был в молодости — и одного зала уже недостаточно. Arctic Health посоветовал знакомый — говорит, продукты качественные, поэтому недешевые. Но со скидкой получается очень выгодно: и себя в форме держишь, и кешбэк получаешь.</i></p>
                     <div class="row">
-                        <div class="col-lg-4 wow fadeInRight" data-wow-duration="2s" data-wow-delay="400ms"> <img src="img/people2.png" class="people_mini" alt="Мужик">
+                        <div class="col-lg-4"> <img src="img/people2.png" class="people_mini" alt="Мужик">
                             <h3 class="people_name">Анастасия, 39</h3>
                             <p class="people_desc">владеет небольшим салоном красоты в своём городе и получает дополнительный доход c Arctic Health</p></div>
-                        <div class="col-lg-4 wow fadeInRight" data-wow-duration="2s" data-wow-delay="800ms"> <img src="img/people3.png" class="people_mini" alt="Мужик">
+                        <div class="col-lg-4"> <img src="img/people3.png" class="people_mini" alt="Мужик">
                             <h3 class="people_name">Ирина, 51</h3>
                             <p class="people_desc">бросила скучную работу менеджера: теперь владеет своим бизнесом и зарабатывает вместе с Arctic Health</p></div>
-                        <div class="col-lg-4 wow fadeInRight" data-wow-duration="2s" data-wow-delay="1200ms"> <img src="img/people4.png"  class="people_mini" alt="Мужик">
+                        <div class="col-lg-4"> <img src="img/people4.png"  class="people_mini" alt="Мужик">
                             <h3 class="people_name">Антон, 54</h3>
                             <p class="people_desc">владеет своим бизнесом и получает дополнительный доход c Arctic Health</p></div>
                     </div> 
@@ -739,6 +901,18 @@
                          <div class="col-lg-4">     <input type="phone" name="phone" placeholder="Телефон"></div>
                             <div class="col-lg-4">     <input type="email" name="email" placeholder="Электронный адрес"></div>
                    </div>
+                   <div class="persona">
+                    <input type="checkbox" id="cbx2" style="display: none;">
+                    <label for="cbx2" class="check">
+                        
+                      <svg width="18px" height="18px" viewBox="0 0 18 18">
+                        <path d="M1,9 L1,3.5 C1,2 2,1 3.5,1 L14.5,1 C16,1 17,2 17,3.5 L17,14.5 C17,16 16,17 14.5,17 L3.5,17 C2,17 1,16 1,14.5 L1,9 Z"></path>
+                        <polyline points="1 9 7 14 15 4"></polyline>
+                      </svg>
+                    
+                    </label>
+                    <span class="questions_description">Согласен (на) на обработку <a href="soglasie.pdf" target="_blank">персональных данных</a></span>
+              </div>
                         <input type="submit" class="btn" >
                     </form>
                     </div>

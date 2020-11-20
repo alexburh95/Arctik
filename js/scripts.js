@@ -25,11 +25,35 @@ popularButton.addEventListener('click',(evt)=>{
 button.addEventListener('click',(evt)=>{
     evt.preventDefault();
     forma.classList.toggle(`hidden`);
+    const knopka= forma.querySelector('input[type=submit]');
+    const check = forma.querySelector(`input[type=checkbox]`);
+    knopka.disabled=true;
+ check.addEventListener('click',()=>{
+     if(check.checked==false){
+         knopka.disabled=true;
+     }
+    if(check.checked==true){
+         knopka.disabled=false
+     }
 })
-header_button.addEventListener('click',(evt)=>{
-    evt.preventDefault();
-   header_popup.classList.toggle(`hidden`);
 })
+// header_button.addEventListener('click',(evt)=>{
+//     evt.preventDefault();
+//    header_popup.classList.toggle(`hidden`);
+//    const knopka= header_popup.querySelector('input[type=submit]');
+//    const check = header_popup.querySelector(`input[type=checkbox]`);
+//    knopka.disabled=true;
+// check.addEventListener('click',()=>{
+//     if(check.checked==false){
+//         knopka.disabled=true;
+//     }
+//    if(check.checked==true){
+//         knopka.disabled=false
+//     }
+// })
+  
+  
+// })
 krest.addEventListener('click',()=>{
     forma.classList.add(`hidden`);
   
