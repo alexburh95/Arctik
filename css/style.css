@@ -803,7 +803,7 @@ footer a {
 }
 
 .form_OS_header textarea {
-  width: 60%;
+  width: 100%;
   border-width: 2px;
   border-color: rgb(37, 59, 85);
   border-style: solid;
