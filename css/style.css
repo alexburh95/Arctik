@@ -61,15 +61,13 @@ img {
     opacity: 1;
 }
 .header__title {
-    font-size: 41.788px;
+    font-size: 43.788px;
     font-family: 'Roboto Condensed', sans-serif;
     color: rgb(255, 255, 255);
     text-transform: uppercase;
     line-height: 1.055;
     text-align: center;
-    -moz-transform: matrix(1.31522309438787, 0, 0, 1.31615698060874, 0, 0);
-    -webkit-transform: matrix(1.31522309438787, 0, 0, 1.31615698060874, 0, 0);
-    -ms-transform: matrix(1.31522309438787, 0, 0, 1.31615698060874, 0, 0);
+
 
     padding-top: 68px;
     padding-bottom: 37px;
@@ -80,16 +78,14 @@ img {
 }
 
 .popular__title {
-    padding-bottom: 40px;
+    padding-bottom: 42px;
     font-size: 38.204px;
     font-family: 'Roboto Condensed', sans-serif;
     color: rgb(50, 76, 108);
     text-transform: uppercase;
     line-height: 1.227;
     text-align: center;
-    -moz-transform: matrix(1.24703623117355, 0, 0, 1.24792170068681, 0, 0);
-    -webkit-transform: matrix(1.24703623117355, 0, 0, 1.24792170068681, 0, 0);
-    -ms-transform: matrix(1.24703623117355, 0, 0, 1.24792170068681, 0, 0);
+
 }
 
 @keyframes blick {
@@ -202,36 +198,13 @@ figure:after {
     border-color: rgb(43, 73, 115);
     border-style: solid;
     border-radius: 10px;
-    font-size: 23px;
+    font-size: 20px;
     font-family: 'Roboto';
     color: rgb(50, 76, 108);
     text-transform: uppercase;
     line-height: 1.471;
     text-align: center;
-    -moz-transform: matrix(
-        0.73879127682358,
-        -1.46197223293723e-15,
-        0,
-        0.73879127682358,
-        0,
-        0
-    );
-    -webkit-transform: matrix(
-        0.73879127682358,
-        -1.46197223293723e-15,
-        0,
-        0.73879127682358,
-        0,
-        0
-    );
-    -ms-transform: matrix(
-        0.73879127682358,
-        -1.46197223293723e-15,
-        0,
-        0.73879127682358,
-        0,
-        0
-    );
+  
 }
 .functional_title {
     font-size: 64px;
@@ -489,7 +462,7 @@ figure:after {
     border: 2px solid #bfe2ff;
     position: relative;
     overflow: hidden;
-    font-size: 20px;
+    font-size: 16px;
     line-height: 20px;
     padding: 12px 30px;
     color: #fff;
@@ -948,15 +921,6 @@ textarea::placeholder {
     padding: 10px 30px;
 }
 
-.Прямоугольник_3 {
-    background-color: rgb(27, 46, 72);
-    position: absolute;
-    left: 946px;
-    top: 1500px;
-    width: 121px;
-    height: 35px;
-    z-index: 415;
-}
 
 .nazvanie {
     font-size: 17px;
@@ -987,7 +951,7 @@ textarea::placeholder {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 30%;
+    width: 40%;
 }
 .container.relative {
     z-index: 1;
@@ -1003,7 +967,7 @@ textarea::placeholder {
     justify-content: flex-start;
     background-color: #95a4b9;
     height: 4px;
-    width: 30%;
+    width: 40%;
     margin-bottom: 15px;
 }
 .bar {
@@ -1026,4 +990,14 @@ textarea::placeholder {
 
 .nagrada_link:hover {
     text-decoration: none;
+}
+
+
+@media only screen and (max-width:1400px){
+.buisness_mini_description {
+font-size: 20px;
+
+padding-left: 70px;
+}
+
 }
