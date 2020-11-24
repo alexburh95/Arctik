@@ -1285,4 +1285,67 @@ footer img{
 .big_description_overlay {
 position: absolute;
 }
+
+.popup_table th {
+    font-size: 10px;
+}
+
+.popup_table td {
+    font-size: 9px;
+}
+
+.big_description {
+    width: 98%;
+}
+
+.text_circle_description {
+    font-size: 10.68px;
+}
+.three{
+    top:500px;
+}
+
+.four{
+    top: 900px;
+}
+.buisness_mini_description {
+     padding-left: 0;
+}
+.buisness__title {
+    font-size: 25px;
+}
+
+.buisness_mini_titile {
+    font-size: 35px;
+    text-align: center;
+}
+.why_p {
+    font-size: 12px;
+}
+.nagrada_title {
+    font-size: 30px;
+}
+}
+
+@media only screen and (max-width: 320px){
+footer a {
+    font-size: 14px;
+}
+.why_p {
+    font-size: 10px;
+}
+
+.why_title {
+    font-size: 26px;
+    padding: 50px;
+}
+
+.popular_item {
+    
+    padding: 9px;
+}
+
+.atuin-btn {
+padding:10px;
+}
 }
