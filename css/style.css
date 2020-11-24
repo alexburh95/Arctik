@@ -1261,6 +1261,11 @@ footer img{
     
 }
 @media only screen and (max-width:420px){ 
+    .form_OS {
+   
+        width: 100%;
+
+    }
 
    header .atuin-btn{
        padding: 10px;
