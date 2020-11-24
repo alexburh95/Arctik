@@ -1261,6 +1261,10 @@ footer img{
     
 }
 @media only screen and (max-width:420px){ 
+
+   header .atuin-btn{
+       padding: 10px;
+   }
     .footer_description br{
         display: block;
     }
