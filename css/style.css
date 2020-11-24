@@ -1253,7 +1253,7 @@ footer img{
 @media only screen and (max-width:575px){ 
     .popular_item {
         border-radius: 15px;
-        width: 60%;
+        width: 95%;
     }
     .people .popular_button {
         width: 80%;
@@ -1377,6 +1377,17 @@ padding-bottom: 0;
 }
 }
 @media only screen and (max-width: 320px){
+    .description_items {
+        font-size: 12px;
+    }
+    .description_items {
+      
+        padding-left: 11px;
+        padding-right: 11px;
+    }
+    .atuin-btn.popular_button{
+        width: 100%;
+    }
 footer a {
     font-size: 14px;
 }
