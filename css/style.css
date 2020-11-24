@@ -1341,11 +1341,12 @@ position: absolute;
 }
 input[type='submit'] {
     border-color: rgb(43, 73, 115);
-    width: 90%;
+    width: 100%;
 }
 .form_OS_header {
     width: 100%;
     right: 0px;
+    top: 80%;
 }
 .check {
     cursor: pointer;
