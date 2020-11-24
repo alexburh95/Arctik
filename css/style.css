@@ -1143,3 +1143,118 @@ footer img{
     width:80%;
 }
 }
+
+@media only screen and (max-width:800px){
+.big_description {
+    width: 85%;
+}
+}
+
+@media only screen and (max-width:767px){ 
+    header .row{
+        align-items: center;
+    }
+
+    .text_circle_description {
+        font-size: 15.68px;
+    }
+
+    .col-lg-4.col-md-4.col-sm-12{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .standart_description {
+        font-size: 24px;
+      padding-top: 10px;
+        text-align: center;
+        position: inherit;
+
+    }
+    .obolocha_description {
+    
+        width: 50%;
+    }
+
+    .tradition_title {
+        font-size: 28px;
+    }
+        .obolochka {
+         
+            width: 50%;
+    }
+    .functional_title {
+        font-size: 30px;
+    }
+
+    .privelegia__title {
+        font-weight: 100;
+        font-size: 35px;
+        margin-bottom: 50px;
+    }
+
+    .naezd {
+        display: none;
+    }
+    .buisness {
+        padding-bottom: 0;
+        background-position: right;
+    }
+    .buisness_mini_description {
+        padding-left: 100px;
+    }
+    .why_p {
+        font-size: 14px;
+    }
+
+    .mini_logo {
+        width: 100%;
+    }
+
+    .people_mini {
+        max-height: max-content;
+    }
+
+    .people{
+        text-align: center;
+    }
+
+    .people_name {
+        font-size: 24px;
+        text-align: center;
+    }
+    .people_desc_big {
+    width:100%;
+    }
+    .footer_description {
+        font-size: 20px;
+        text-align: center;
+        padding: 20px 0;
+    }
+    footer a {
+        font-size: 18px;
+    }
+    footer img {
+         width: 100%; 
+        margin-top: 20px;
+    }
+
+    .form_OS_header {
+   
+        width: 70%;
+      
+        right: 15%;
+    }
+
+}
+
+@media only screen and (max-width:575px){ 
+    .popular_item {
+        border-radius: 15px;
+        width: 60%;
+    }
+    .people .popular_button {
+        width: 80%;
+    }
+    
+}
