@@ -980,6 +980,8 @@ svg{
 }
 .videorolik iframe {
     width: 100%;
+   border: none;
+   height: 460px;
 }
 .close {
     margin: 10px;
