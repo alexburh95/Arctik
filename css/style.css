@@ -897,7 +897,9 @@ textarea::placeholder {
 .pereelka {
     justify-content: flex-end;
 }
-
+.footer_description br{
+    display: none;
+}
 .sostav_p {
     font-size: 12px;
     font-family: 'Roboto', sans-serif;
@@ -1259,6 +1261,9 @@ footer img{
     
 }
 @media only screen and (max-width:420px){ 
+    .footer_description br{
+        display: block;
+    }
 
 
 .atuin-btn {
@@ -1348,12 +1353,18 @@ input[type='submit'] {
     right: 0px;
     top: 80%;
 }
+.privelegia {
+padding-bottom: 0;
+}
 .check {
     cursor: pointer;
     position: relative;
     margin-right: 20px;
     width: 50px;
     height: 50px;
+}
+.videorolik{
+    padding: 50px;
 }
 }
 @media only screen and (max-width: 320px){
