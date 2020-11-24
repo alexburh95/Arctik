@@ -1325,6 +1325,18 @@ position: absolute;
 .nagrada_title {
     font-size: 30px;
 }
+.norvegian_standart {
+     padding-bottom: 10px; 
+}
+.functional_title {
+    padding:10px;
+}
+.buisness__title {
+    font-size: 30px;
+}
+.buisness_mini_titile {
+    font-size: 25px;
+}
 }
 
 @media only screen and (max-width: 320px){
