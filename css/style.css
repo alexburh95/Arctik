@@ -970,10 +970,16 @@ textarea::placeholder {
     width: 40%;
     margin-bottom: 15px;
 }
+svg{
+    max-width: 100%;
+}
 .bar {
     width: 50%;
     background-color: #2b4973;
     height: 4px;
+}
+.videorolik iframe {
+    width: 100%;
 }
 .close {
     margin: 10px;
@@ -999,5 +1005,54 @@ font-size: 20px;
 
 padding-left: 70px;
 }
+
+}
+
+@media only screen and (max-width:1200px){
+    .people_desc_big {
+        font-size: 17px;
+   
+        margin-bottom: 59px;
+    }
+    .people_mini {
+        max-height: 120px;
+    }
+    footer a {
+        font-size: 15px;
+    }
+    .popular_button {
+        width: 200px;
+        height: 40px;
+        
+    margin-top: 10px;
+
+    }
+
+    .description_items {
+        font-size: 11px;
+    }
+
+    .popular_item {
+ 
+        max-height: 310px;
+    }
+
+    .buisness {
+       
+      
+        padding-bottom: 0;
+    }
+
+    .buisness__title {
+        font-size: 35px;
+        margin-bottom: 50px;
+    }
+    .buisness_mini_titile {
+        font-size: 35px;
+    }
+    .footer_description {
+        
+        font-size: 13px;
+    }
 
 }
