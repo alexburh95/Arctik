@@ -1254,6 +1254,7 @@ footer img{
     .popular_item {
         border-radius: 15px;
         width: 95%;
+        min-height: 320px;
     }
     .people .popular_button {
         width: 80%;
