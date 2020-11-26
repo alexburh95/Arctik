@@ -249,6 +249,7 @@ figure:after {
 }
 .mini_logo {
     width: 40%;
+    text-align: center;
 }
 .centrik.mini::after {
     top: 55px;
