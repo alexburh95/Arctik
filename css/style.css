@@ -248,7 +248,7 @@ figure:after {
     top: 62px;
 }
 .mini_logo {
-    width: 40%;
+   
     text-align: center;
 }
 .centrik.mini::after {
@@ -1106,9 +1106,7 @@ padding-left: 70px;
     .mini_logo_60 {
          width: 100%; 
     }
-    .mini_logo {
-        width: 60%;
-    }
+   
     .people_name {
         font-size: 17px;
     }
